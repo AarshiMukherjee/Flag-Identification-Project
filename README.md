@@ -28,6 +28,15 @@ Examine whether object detection models are capable of detecting a custom flag i
 ---
 
 ## Dataset Pipeline
+Dataset Overview
+| Dataset | Total Images | Train | Validation | Test | Role |
+|---------|-------------:|------:|-----------:|-----:|------|
+| Dataset A | 1,000 | 700 | 200 | 100 | Train + Test |
+| Dataset B | 1,000 | 700 | 200 | 100 | Train + Test |
+| Dataset C | 1,000 | 700 | 200 | 100 | Train + Test |
+| Dataset D | 1,000 | 700 | 200 | 100 | Train + Test |
+| Dataset E | 500 | – | – | 500 | **Unseen Test Only** |
+|Stanford Background Dataset | 715|-|-|-|Train Only|
 
 ### Dataset A
 - Stanford Background Dataset
