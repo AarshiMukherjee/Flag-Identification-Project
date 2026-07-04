@@ -1,4 +1,4 @@
-# Synthetic Data Generation for Zero-Shot Flag Object Detection
+# Synthetic Data Generation for Flag Object Detection
 
 A computer vision project that investigates whether progressively augmented synthetic datasets can improve the generalization of object detection models when no real-world training images are available.
 
@@ -165,7 +165,7 @@ Flag_Identification/
     ├── flag.png
     ├── flag_design_background_removed.png
     
----
+```
 
 ## Results
 Training Results of YOLOv8n on Synthetic Datasets
@@ -175,6 +175,7 @@ Training Results of YOLOv8n on Synthetic Datasets
 | Dataset B | 0.9994 | 1.0000 | 0.9950 | 0.9125 | 11.52 | 9.93 |
 | Dataset C | 0.9994 | 1.0000 | 0.9950 | 0.9312 | 12.18 | 10.46 |
 | Dataset D | 1.0000 | 0.9893 | 0.9936 | 0.8526 | 11.41 | 10.01 |
+
 Training Results of YOLOv8s on Synthetic Datasets
 | Dataset | Precision | Recall | mAP@0.50 | mAP@0.50:0.95 | Training Time (min) | Inference Time (ms) |
 |----------|----------:|-------:|---------:|--------------:|--------------------:|--------------------:|
@@ -182,6 +183,7 @@ Training Results of YOLOv8s on Synthetic Datasets
 | Dataset B | 0.9997 | 1.0000 | 0.9950 | 0.9372 | 19.32 | 15.59 |
 | Dataset C | 0.9994 | 1.0000 | 0.9950 | 0.9328 | 13.49 | 13.93 |
 | Dataset D | 0.9955 | 0.9800 | 0.9847 | 0.8330 | 13.83 | 14.29 |
+
 Test Results of YOLOv8n on unseen DATASET E(unseen)
 | Dataset   | Precision (%) | Recall (%) | mAP@0.50 | mAP@0.50:0.95 |
 |------------|--------------:|-----------:|---------:|--------------:|
@@ -189,6 +191,7 @@ Test Results of YOLOv8n on unseen DATASET E(unseen)
 | Dataset B | 61.72 | 59.00 | 0.5286 | 0.3516 |
 | Dataset C | 90.49 | 49.46 | 0.5813 | 0.4018 |
 | Dataset D | 95.76 | 81.35 | 0.9104 | 0.5589 |
+
 Test Results of YOLOv8s on unseen DATASET E(unseen)
 | Dataset   | Precision (%) | Recall (%) | mAP@0.50 | mAP@0.50:0.95 |
 |------------|--------------:|-----------:|---------:|--------------:|
