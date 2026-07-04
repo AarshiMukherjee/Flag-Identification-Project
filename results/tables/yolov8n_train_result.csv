@@ -1,0 +1,5 @@
+Dataset,Precision,Recall,mAP@0.50,mAP@0.50:0.95,Training Time (min),Inference Time (ms)
+DatasetA,0.9995,1.0000,0.9950,0.9770,12.34,12.19
+DatasetB,0.9994,1.0000,0.9950,0.9125,11.52,9.93
+DatasetC,0.9994,1.0000,0.9950,0.9312,12.18,10.46
+DatasetD,1.0000,0.9893,0.9936,0.8526,11.41,10.01
