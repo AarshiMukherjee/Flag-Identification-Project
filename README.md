@@ -54,7 +54,7 @@ Dataset C +
 
 ### Dataset E (Unseen Test Set)
 
-Contains synthetic images generated and not observed during training and is used exclusively for evaluating model generalization.
+Contains synthetic images of flags having similar (not exact) shape as our original flag  generated and not observed during training and is used exclusively for evaluating model generalization.
 
 ---
 
