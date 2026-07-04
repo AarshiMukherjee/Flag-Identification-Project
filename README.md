@@ -20,7 +20,7 @@ Examine whether object detection models are capable of detecting a custom flag i
 
 - Generate synthetic object detection datasets from a single flag template.
 - Give below is the flag we are using with measurements in inches
-- ![Project Banner](assets/flag.png)
+  ![Project Banner](assets/flag.png)
 - Study the effect of progressive domain randomization on model generalization.
 - Compare lightweight and two-stage object detectors.
 - Evaluate robustness on an unseen synthetic test dataset.
