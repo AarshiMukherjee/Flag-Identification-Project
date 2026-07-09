@@ -212,6 +212,7 @@ Test Results of YOLOv8s on unseen DATASET E(unseen)
 Finally, YOLOv8n has been selected as our detector and given figure below shows model's prediction on Dataset E (random 3 samples)
 ![Project Banner](assets/model_predictions.png)
 -img_1171 has a sqaure flag similar to our original flag and is of orange color. The detector ignores it as it isn't our target (Prediction : False).
+
 -img_257 and img_233 contain our original flags and detector detects it with given confidence score.
 
 Key observations from the experiments include:
